@@ -44,7 +44,8 @@ lines(dat_sub$datetime, dat_sub$Sub_metering_3, col = 'blue')
 legend('topright',
        c('Sub_metering_1','Sub_metering_2','Sub_metering_3'),
        col = c('black','red','blue'),
-       lty = 1)
+       lty = 1,
+       bty = "n")
 
 # plot - bottom right
 plot(dat_sub$datetime,
