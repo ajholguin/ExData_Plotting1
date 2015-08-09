@@ -32,7 +32,7 @@ plot(dat_sub$datetime,
      ylab = 'Voltage',
      type = 'l')
 
-# plot - bottom right
+# plot - bottom left
 plot(dat_sub$datetime,
      dat_sub$Sub_metering_1,
      xlab = NA,
